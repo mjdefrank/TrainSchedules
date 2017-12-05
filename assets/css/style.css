@@ -1,0 +1,32 @@
+body{
+	background-image: url(http://www.publicdomainpictures.net/pictures/200000/velka/train-station-platform-1475044035rCp.jpg);
+}
+.form-control{
+	background-color: #DDD;
+}
+.userPanel, .infoPanel{
+	opacity: .9;
+	background-color: black;
+	color: white;
+}
+
+.jumbotron{
+	text-align: center;
+	background-color: #F37735;
+	color: white;
+	opacity: .8;
+}
+
+button{
+	margin: 10px;
+	padding: 3px 5px;
+	background-color: #00B159;
+	border: 2px solid green;
+	color: white;
+}
+
+button:hover {
+	cursor: pointer;
+	border: 2px solid #00B159;
+	background-color: green;
+}
