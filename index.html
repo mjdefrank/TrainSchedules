@@ -12,12 +12,25 @@
 	<div class="col-md-10">
 		<div class="jumbotron">
 	  		<h1>Train-ipedia</h1>
-	  		<p>User-updated train schedules</p>
+	  		<p>User-updated Train Schedules</p>
 		</div>
 		
 		<div class="infoPanel panel panel-default">
 	  		<div class="panel-heading">Current Train Schedule</div>
 	  		<div class="panel-body" id="trainSchedule">
+	  			<table class='col-md-12'>
+	  				<thead>
+		  				<tr>
+		  					<th class="nameHead col-md-3">Train Name</th>
+		  					<th class="destinationHead col-md-3">Destination</th>
+		  					<th class="frequencyHead col-md-2">Frequency (min)</th>
+		  					<th class="nextHead col-md-2">Next Arrival</th>
+		  					<th class="awayHead col-md-2">Minutes Away</th>	
+	  					</tr>
+	  				</thead>
+	  					<tbody>
+		  				</tbody>
+	  			</table>
 	  		</div>
 		</div>
 
@@ -52,8 +65,8 @@
 		</div>
 	</div>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 	<script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="https://momentjs.com/downloads/moment.js"></script>
 	<script type="text/javascript" src="./assets/javascript/app.js"></script>
 </body>
